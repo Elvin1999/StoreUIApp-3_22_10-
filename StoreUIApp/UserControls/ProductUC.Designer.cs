@@ -70,11 +70,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.priceLbl);
             this.Controls.Add(this.nameLbl);
             this.Controls.Add(this.pictureBox1);
             this.Name = "ProductUC";
-            this.Size = new System.Drawing.Size(500, 100);
+            this.Size = new System.Drawing.Size(498, 98);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
